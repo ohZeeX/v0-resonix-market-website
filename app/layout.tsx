@@ -8,19 +8,19 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "RESONIX MARKET - Premium Gaming Currency Exchange",
+  title: "⚡ RESONIX MARKET - Your Digital Advantage is Here",
   description:
-    "Buy Robux, V-Bucks, Valorant Points and more gaming currencies instantly. Trusted by 2500+ customers with 24/7 delivery.",
+    "Unlock the best deals for Robux, V-Bucks, and VP! Instant delivery, 100% secure, and over 2500+ happy customers. Trusted by the community.",
   generator: "v0.app",
   openGraph: {
-    title: "RESONIX MARKET - Premium Gaming Currency",
-    description: "Buy gaming currencies instantly with secure delivery",
+    title: "⚡ RESONIX MARKET - Your Digital Advantage is Here",
+    description: "Unlock the best deals for Robux, V-Bucks, and VP! Instant delivery, 100% secure, and over 2500+ happy customers. Trusted by the community.",
     type: "website",
     url: "https://resonix-market.netlify.app/", // مثال، يُفضل تحديثه لرابط موقعك
     images: [{
       url: "/resonix-og-image.jpg", // يجب وضع هذه الصورة في مجلد public
-      width: 1200,
-      height: 630,
+      width: 960,
+      height: 540,
     }],
   },
   icons: {
