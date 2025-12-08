@@ -7,7 +7,7 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "RESONIX MARKET - Premium Gaming Currency Exchange",
   description:
     "Buy Robux, V-Bucks, Valorant Points and more gaming currencies instantly. Trusted by 2500+ customers with 24/7 delivery.",
@@ -16,21 +16,16 @@ export const metadata: Metadata = {
     title: "RESONIX MARKET - Premium Gaming Currency",
     description: "Buy gaming currencies instantly with secure delivery",
     type: "website",
+    url: "https://resonix-market.netlify.app/", // مثال، يُفضل تحديثه لرابط موقعك
+    images: [{
+      url: "/resonix-og-image.jpg", // يجب وضع هذه الصورة في مجلد public
+      width: 1200,
+      height: 630,
+    }],
   },
   icons: {
     icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
+      { url: "/icon.svg", type: "image/svg+xml" },
     ],
     apple: "/apple-icon.png",
   },
