@@ -18,7 +18,7 @@ export const metadata = {
     type: "website",
     url: "https://resonix-market.netlify.app/", // مثال، يُفضل تحديثه لرابط موقعك
     images: [{
-      url: "/resonix-og-image.jpg", // يجب وضع هذه الصورة في مجلد public
+      url: "resonix-og-image.jpg", // يجب وضع هذه الصورة في مجلد public
       width: 960,
       height: 540,
     }],
