@@ -1,7 +1,7 @@
 export const BASE_VOUCHES = [
   {
     service: "V-Bucks",
-    text: "just purchased 13,500 vbucks 😂 gift cards came super fast like 7 mins max, ty bro",
+    text: "just purchased 13,500 vbucks gift cards came super fast like 7 mins max, ty bro",
   },
   {
     service: "Fortnite Account",
