@@ -17,7 +17,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold text-cyan-400 mb-4">RESONIX MARKET</h3>
             <p className="text-gray-400 text-sm">
-              Your trusted partner for premium gaming currencies. Fast, secure, and reliable delivery since 2024.
+              Your trusted partner for premium gaming currencies. Fast, secure, and reliable delivery since 2022.
             </p>
           </div>
 
